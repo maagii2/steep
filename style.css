@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+    align-content: center;
+    
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    
+
+}
+.head .menu{
+    width: 450px;
+    height: 40px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    
+}
+.head .logo{
+    width: 110px;
+    height: 40px;
+}
+.head .buttons{
+    width: 450px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.head .buttons button{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    
+}
+.container{
+    text-align: center;
+    align-content: center;
+    background-color: rgb(249, 249, 249);
+}
+.container .text-com h1{
+    background-image: url(https://steep.app/images/home/sparkles.svg ) ;
+    font-size: 80px;
+    padding-top: 100px;
+}
+.text-comple {
+    font-size: 24px;
+    color: rgb(119 123 134);
+}
+.buttons2 button{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 120px;
+    height: 48px;
+    
+}
+.buttons2 .request{
+    width: 150px;
+    height:48px ;
+    background-color: white;
+    color: black;
+    text-align: center;
+    
+}
+.buttons2{
+    gap: 20px;
+    padding-top: 20px;
+
+}
+.container .contain img{
+    width: 1200px;
+    height: 570px;
+}
+.container2{
+    background-color: white;
+    text-align: center;
+    align-content: center;
+}
+.container2 .text1 p{
+    padding-top: 100px;
+    color: black;
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+.container2 .image-comple{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 280px;
+    margin-left: 280px;
+}
+
+.container2 .image-comple2{
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.container3{
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+    align-content: center;
+}
+.container3 .card1{
+    width: 700px;
+    height: 250px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 30px;
+    
+}
+.container3 .card2{
+    width: 700px;
+    height: 250px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 30px;
+}
+.container3 .card2 .text2 p{
+    font-size: 22px;
+    color: rgb(119 123 134);
+
+}
+.container3 .card1 .text p{
+    font-size: 22px;
+    color: rgb(119 123 134);
+
+}
+.container4{
+    background-color:rgb(230 244 235) ;
+    text-align: center;
+    align-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.container4 .text3 h1{
+    font: 1em sans-serif;
+    font-size: 60px;
+    padding: 60px;
+    margin-top: 40px;
+
+}
+.container4 .text3 p{
+    font-size: 24px;
+}
+.container4 .image3 img{
+    width: 1000px;
+    padding-top: 60px;
+}
+
+.container5{
+    display: grid;
+    grid-template-columns:680px 680px ;
+    grid-template-rows: 700px;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    padding-top: 40px;
+}
+.container5 .item img{
+    width: 450px;
+    height: 500px;
+    padding-top: 60px;
+}
+.container5 .item {
+    border: 1px solid gray;
+    border-radius: 10px;
+}    
+.container5 .item video{
+    width: 400px;
+    height: 500px;
+
+}
+.container5 .item .text-compinent h2{
+    font-size: 40px;
+    letter-spacing: 5px;
+}    
+
+.container5 .item .text-compinent p{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 20px;
+    padding-left: 40px;
+    padding: 40px;
+        
+}
+.container6 img{
+    width: 100%;
+    height: 680px;
+    padding-top: 180px;
+    
+}
+.container7{
+    text-align: center;
+    padding-top: 40px;
+
+}
+.container7 h1{
+    font-size: 70px;
+}
+.container7 p{
+    padding-top: 40px;
+    font-size: 24px;
+    padding-bottom: 80px;
+    color: rgb(119 123 134);
+}
+.container8 {
+    display: grid;
+    grid-template-columns: 400px 750px;
+    grid-template-rows: 600px;
+    border: 1px solid grey;
+    margin: 80px;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+
+}
+.container8 .child img{
+    width: 700px;
+    height: 500px;
+}
+.container8 .child h2{
+    font-size: 36px;
+    
+}
+.container8 .child p{
+    font-size: 30px;
+    color: rgb(119 123 134);
+    padding-top: 40px;
+    
+}
+.container8 .child .text{
+    font-size: 30px;
+    padding-top: 40px;
+}
+.container9{
+    display: grid;
+    grid-template-columns:680px 680px ;
+    grid-template-rows: 700px;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    padding-top: 40px;
+}
+.container9 .item img{
+    width: 450px;
+    height: 500px;
+    padding-top: 60px;
+}
+.container9 .item {
+    border: 1px solid gray;
+    border-radius: 10px;
+}    
+.container9 .item video{
+    width: 400px;
+    height: 450px;
+
+}
+.container9 .item .text-compinent h2{
+    font-size: 50px;
+    letter-spacing: 1px;
+}    
+
+.container9 .item .text-compinent p{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 18px;
+    padding-left: 40px;
+    padding: 40px;
+        
+}
+.container10{
+    text-align: center;
+    align-content: center;
+}
+.container10 img{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+
+}
+.container10 h2{
+    font-size: 20px;
+    color: rgb(119 123 134);
+    padding-top: 20px;
+
+
+}
+.container10 p{
+    
+    font-size: 30px;
+    font-style: italic;
+}
+.container11{
+    border: 1px solid gray;
+    text-align: center;
+    align-content: center;
+    margin-top: 60px;
+}
+.container11 .image11 img{
+    height: 520px;
+    width: 900px;
+}
+.container11 .text11 h1{
+    font-size: 80px;
+}
+.container11 .text11 p{
+    font-size: 30px;
+    color: rgb(119 123 134);
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+.container12 {
+    display: grid;
+    grid-template-columns: 400px 750px;
+    grid-template-rows: 600px;
+    border: 1px solid grey;
+    margin: 80px;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+
+}
+.container12 .child img{
+    width: 700px;
+    height: 500px;
+}
+.container12 .child h2{
+    font-size: 36px;
+    
+}
+.container12 .child p{
+    font-size: 30px;
+    color: rgb(119 123 134);
+    padding-top: 40px;
+    
+}
+.container12 .child .text{
+    font-size: 30px;
+    padding-top: 40px;
+}
+.container13{
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-template-rows: 700px;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.container13 .item h2{
+    font-size: 35px; 
+    padding-top: 50px;   
+}
+.container13 .item p{
+    padding-top: 50px;
+    font-size: 24px;
+}
+.container13 .item{
+    border: 1px solid gray;
+}
+.container20{
+    text-align: center;
+    padding-top: 60px;
+    align-content: center;
+
+}
+.container20 img{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+
+}
+.container20 h2{
+    font-size: 20px;
+    color: rgb(119 123 134);
+    padding-top: 20px;
+
+
+}
+.container20 p{
+    
+    font-size: 30px;
+    font-style: italic;
+}
+.container14{
+    text-align: center;
+    align-content: center;
+    border: 1px solid grey;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 40px;
+    margin-top: 40px;
+}
+.container14 img{
+    width: 460px;
+    height: 460px;
+}
+.container16{
+    text-align: center;
+    align-content: center;
+}
+.container16 img{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+
+}
+.container16 h2{
+    font-size: 20px;
+    color: rgb(119 123 134);
+    padding-top: 20px;
+
+
+}
+.container16 p{
+    
+    font-size: 30px;
+    font-style: italic;
+}
+.container16 button{
+    width: 150px;
+    height:48px ;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.container17{
+    text-align: center;
+    align-content: center;
+}
+.container17 h1{
+    font-size: 60px;
+}
+.container17 p{
+    font-size: 30px;
+    color: rgb(119 123 134);
+    padding-top: 40px;
+}
+.container17 button{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 120px;
+    height: 48px;
+    
+}
+.container17 .demo{
+    width: 150px;
+    height:48px ;
+    background-color: white;
+    color: black;
+    text-align: center;
+    
+}
+.container17 .buttons17{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.container18{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 300px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.container18 .items h4{
+    font-size: 30px;
+    color: rgb(119 123 134);
+    margin-bottom: 30px;
+    
+    
+}
+.container18 .items p{
+    text-size-adjust: 40px;
+    font-size: 24px;
+    text-wrap: 20px;
+}
